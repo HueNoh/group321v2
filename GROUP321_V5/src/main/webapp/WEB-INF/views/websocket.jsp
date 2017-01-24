@@ -104,7 +104,7 @@
 		var jsonStr = JSON.stringify(bnArr);
 		$.ajax({
 			method : 'post',
-			url : '/person/viewMsg',
+			url : '/chat/viewMsg',
 			data : {
 				JSON : jsonStr
 			}
@@ -191,7 +191,7 @@
 		var jsonStr = JSON.stringify(msg);
 		$.ajax({
 			method : 'post',
-			url : '/person/chatMsg',
+			url : '/chat/chatMsg',
 			data : {
 				JSON : jsonStr
 
